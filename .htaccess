@@ -1,0 +1,4 @@
+DirectoryIndex single-standard.html index.html
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://yourdomain.com/$1 [R=301,L]
